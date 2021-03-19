@@ -1,0 +1,41 @@
+.container{
+    width: auto;
+    height:800px;
+     background-color: rgba(218, 223, 245, 0.671);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  
+    
+}
+
+
+
+@media screen and (min-width: 250px) and (max-width: 1280px){
+
+    .donor{
+      width: auto;
+      height:auto;
+       background-color: rgba(218, 223, 245, 0.671);
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+   
+   padding:5%;
+    
+      
+  }
+  
+  .footer{
+    background: white;
+    height:40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+
+  }
+
+}

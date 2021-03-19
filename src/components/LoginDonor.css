@@ -1,0 +1,305 @@
+.wrapper{
+    background-color: whitesmoke;
+    height:auto;
+  
+  }
+  .main3{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  .form {
+    width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    background-color: whitesmoke;
+    }
+    .form-group{
+        width:auto;
+        height:auto;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .far fa-eye{
+        margin-right:22%;
+      }
+
+      .btn1 {
+        align-items: center;
+        height: 40px;
+        margin-left: 5px;
+        background: rgb(88, 151, 211);
+        outline: none;
+        border: none;
+        color: #fff;
+        font-size: 1.6rem;
+        display: block;
+        margin-bottom: 30px;
+       width:430px;
+        border-radius: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+       
+      }
+      .btn1:hover{
+         cursor: pointer;
+        background-color: rgb(90, 199, 226);
+        color: rgb(20, 20, 20);
+      
+      }
+      
+
+.btn2{
+    align-items: center;
+    width: 430px;
+    height: 40px;
+    margin-left: 5px;
+    background: rgb(146, 35, 190);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.4rem;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  
+  }
+  .btn2:hover{
+    cursor: pointer;
+  }
+      
+    
+
+  .footer{
+    background: white;
+    height:40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+
+
+
+  @media screen and (min-width: 250px) and (max-width: 2580px) {
+
+
+    .main3{
+        height:800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+      
+      width:auto;
+      }
+      .form {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      margin-bottom: 13%;
+     padding:0%;
+     background-color: whitesmoke;
+      }
+      .form-group{
+        width:auto;
+        height:auto;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+      }
+      .form-group i {
+        margin-left: 72% ;
+         margin-top: -59px;
+        cursor: pointer;
+    }
+      input {
+        display: block;
+        width: 200%;
+        margin-bottom: 30px;
+        padding: 15px;
+        border-radius: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: white;
+       
+      }
+      input::placeholder{
+        font-size: 15px;
+      }
+      input::after{
+        border:none;
+      }
+      
+      
+      .btn1 {
+        align-items: center;
+        height: 40px;
+        margin-right: 5px;
+        background: rgb(88, 151, 211);
+        outline: none;
+        border: none;
+        color: #fff;
+        font-size: 1.3rem;
+        display: block;
+        margin-bottom: 30px;
+        width:300px;
+        border-radius: 10px;
+        
+       
+      }
+      .btn1:hover{
+        cursor: pointer;
+       background-color: rgb(90, 199, 226);
+       color: rgb(20, 20, 20);
+     
+     }
+     .btn2{
+        align-items: center;
+        width:300px;
+        height: 40px;
+        background: rgb(146, 35, 190);
+        outline: none;
+        border: none;
+        color: #fff;
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 30px;
+        border-radius: 10px;
+       margin-right: 5px;
+      
+      }
+      .btn2:hover{
+        cursor: pointer;
+      }
+
+      .footer{
+     
+        height:auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:inherit;
+        background:white;
+        margin-bottom: 0px;
+      } 
+  }
+
+
+
+  @media screen and (min-width: 280px) and (max-width: 653px) {
+
+
+    .main3{
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+      width:auto;
+      padding:10%;
+      }
+      .far fa-eye{
+        margin-right:22%;
+      }
+      .form-group{
+        width:auto;
+        height:auto;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+      }
+      input {
+        display: block;
+        width:280px;
+        margin-bottom: 30px;
+        padding: 15px;
+        border-radius: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: white;
+      }
+      input::placeholder{
+        font-size: 15px;
+      }
+      input::after{
+        border:none;
+      }
+
+      .footer{
+     
+        height:auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:inherit;
+        background:white;
+        margin-bottom: 0px;
+      } 
+  }
+
+
+
+  @media only screen 
+and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .wrapper{
+        background-color: whitesmoke;
+        height:auto;
+      
+      }
+    .main3{
+        height: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: whitesmoke;
+      }
+}
+
+@media (min-width: 800px) and (max-width: 2560px) {
+
+    .wrapper{
+        background-color: white;
+        width: auto;
+        height: auto;
+        
+      }
+
+    .main3{
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+       
+}
+}

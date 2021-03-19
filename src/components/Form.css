@@ -1,0 +1,325 @@
+*{
+ margin:0px;
+ padding: 0PX;
+}
+
+.wrapper{
+  background-color: whitesmoke;
+  height:auto;
+
+}
+
+
+.payment{
+  background-color: whitesmoke;
+ height:auto;
+
+}
+.fill-your-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: whitesmoke;
+height:auto;
+
+}
+
+.givecharityhere{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+
+}
+.clickforcontact{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+
+}
+.charityhere{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+
+}
+.main4{
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+
+
+}
+.cheerful{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  margin-top: 10%;
+
+}
+.form_payment{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:stretch;
+  align-items:flex-start;
+
+  width: 200px;
+
+}
+.paragraph{
+ font-size: 35px;
+  color:black; 
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    margin-top: 5%;
+}
+
+
+
+input {
+  display: block;
+  width: 33%;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+ 
+}
+input::placeholder{
+  font-size: 15px;
+}
+
+
+
+
+textarea{
+  display: block;
+  width: 50%;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+border-bottom: 2px solid rgb(102, 101, 101);
+height: 15px;
+background-color: white;
+}
+input::after{
+  border:none;
+}
+
+
+
+
+
+
+.fulldiv{
+  background-color: whitesmoke;
+}
+
+
+.one{
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+  width:auto;
+
+}
+.add-donor{
+  margin-top: 5%;
+
+}
+.logout{
+
+  
+  color:white;
+}
+
+.donationentry{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+
+}
+
+   
+.footer{
+  background: white;
+  height:40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 2580px) {
+  .wrapper{
+    background-color: whitesmoke;
+    height:auto;
+  
+  }
+  .far fa-eye{
+    margin-right:22%;
+  }
+ 
+  
+  h1 {
+    text-align: center;
+  }
+  
+ 
+ 
+
+  .payment{
+    background-color: whitesmoke;
+  height:800px;
+  
+  }
+  .fill-your-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: whitesmoke;
+  height:700px;
+
+  }
+
+ 
+  .paragraph{
+    font-size: 25px;
+     color:black; 
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight:bold;
+      
+   }
+ 
+  
+  label{
+    display: block;
+    width: 80%;
+    margin-bottom: 5px;
+    height: 20px;
+  }
+
+    
+    .paragraph{
+      margin-top:10% ;
+    }
+    
+    
+    input {
+      display: block;
+      width:280px;
+      margin-bottom: 30px;
+      padding: 15px;
+      border-radius: 10px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      background-color: white;
+    }
+    input::placeholder{
+      font-size: 15px;
+    }
+    
+    
+    textarea{
+      display: block;
+      width: 50%;
+      margin-bottom: 30px;
+      padding: 10px;
+      border-radius: 10px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    border-bottom: 2px solid rgb(102, 101, 101);
+    height: 15px;
+    background-color: white;
+    }
+    input::after{
+      border:none;
+    }
+    
+    
+    
+   
+    .main4{
+      height:fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+    padding:5%;
+    
+    }
+   
+    
+ 
+  .footer{
+     
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:inherit;
+    background:white;
+    margin-bottom: 0px;
+  } 
+}
+
+@media screen and (min-width: 280px) and (max-width: 653px) {
+  
+  .payment{
+    background-color: whitesmoke;
+    
+  
+  }
+  .footer{
+     
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:inherit;
+    background:white;
+    margin-bottom: 0px;
+    font-size: 14px;
+  } 
+
+}
+
+
+
+
+ 

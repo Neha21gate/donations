@@ -1,0 +1,317 @@
+*{
+  margin:0px;
+  padding:0px;
+
+}
+
+.main2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+ width: auto;
+ height: auto;
+  
+}
+.heading1{
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+
+}
+
+.footer{
+   
+  height:70px;
+  display: flex;
+  flex-direction: row;
+  justify-content:stretch;
+  background:white;
+  align-items:flex-end;
+}
+.signupform {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 700px;
+  margin-right: auto;
+margin-left: auto;
+margin-top: 0px;
+padding: 0px;
+
+}
+.here1{
+  height: auto;
+  width: 60%;
+
+}
+
+
+.enter1 {
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 17px;
+color: #333;
+height: 18px;
+width:70%;
+background-color:whitesmoke;
+margin-left: 2%;
+text-align:left; 
+
+
+
+}
+
+.enter2 {
+height: 20px;
+width: 64%;
+background-color: rgb(247, 248, 244);
+border-bottom: none;
+border-radius: none;
+border-top: none;
+border-right: none;
+border-left:none;
+margin-right: 40%;
+margin-top:5%;
+background-color: white;
+
+
+}
+.enter3 {
+  margin-top:30px;
+  width:400px;
+  
+
+}
+
+.herebutton{
+  width: 300px;
+  height:40px;
+
+  font-size: 20px;
+  background-color: purple;
+  font-weight: bold;
+}
+.herebutton:hover{
+  color: whitesmoke;
+  background-color: green;
+}
+   
+
+
+   .footer{
+    background: white;
+    height:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+   
+   
+   
+   
+   
+   
+   @media screen and (min-width: 250px) and (max-width: 1280px) {
+
+    .main2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: whitesmoke;
+     width: auto;
+     height: auto;
+      
+    }
+    .heading1{
+      align-items: center;
+      justify-content: center;
+      margin-top: 10%;
+     
+    
+    }
+   
+    .signupform {
+      background-color:whitesmoke;
+      height: auto;
+      width:90%;
+     
+    }
+    
+    .enter1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #333;
+    background-color: whitesmoke;
+    width: 40%;
+    float:left;
+    margin-top: 30%;
+  
+    
+    }
+    
+    
+    .here1{
+      height: auto;
+      width: auto;
+    
+    }
+   
+    .enter3{
+     
+      width:80%;
+    
+    }
+    
+    .herebutton{
+      width: 120px;
+      height:40px;
+      font-size: 20px;
+      margin-bottom: 0px;
+      background-color: purple;
+      font-weight: bold;
+      margin-right: 30%;
+    }
+    .herebutton:hover{
+      color: whitesmoke;
+      background-color: green;
+    }
+     
+     .footer{
+        
+       height:40px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       background:white;
+       align-items: center;
+     }
+   
+   
+     
+   }
+   
+   
+  
+  
+   @media (min-width: 800px) and (max-width: 3560px) {
+
+    .main2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: whitesmoke;
+     width: auto;
+     height: auto;
+      
+    }
+    .heading1{
+      align-items: center;
+      justify-content: center;
+      margin-top: 10%;
+    
+    }
+    
+    .footer{
+       
+      height:70px;
+      display: flex;
+      flex-direction: row;
+      justify-content:stretch;
+      background:white;
+      align-items:flex-end;
+    }
+    .signupform {
+      background-color: whitesmoke;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      width: 700px;
+      margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    padding: 0px;
+    
+    }
+    .here1{
+      height: auto;
+      width: 60%;
+    
+    }
+    
+    
+    .enter1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 17px;
+    color: #333;
+    height: 18px;
+    width:70%;
+    background-color:whitesmoke;
+    margin-left: 2%;
+    text-align:left; 
+    
+    
+    
+    }
+    
+    .enter2 {
+    height: 20px;
+    width: 64%;
+    background-color: rgb(247, 248, 244);
+    border-bottom: none;
+    border-radius: none;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    margin-right: 40%;
+    margin-top:5%;
+    background-color: white;
+    
+    
+    }
+    .enter3 {
+      margin-top:30px;
+      width:400px;
+      
+       
+    
+    }
+    
+    .herebutton{
+      width: 200px;
+      height:40px;
+      font-size: 20px;
+      margin-right: 10%;
+      background-color: purple;
+      font-weight: bold;
+    }
+    .herebutton:hover{
+      color: whitesmoke;
+      background-color: green;
+    }
+       
+    
+    
+       .footer{
+        background: white;
+        height:40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+
+
+
+
+   }

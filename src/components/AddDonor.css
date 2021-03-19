@@ -1,0 +1,548 @@
+*{
+    margin:0px;
+    padding: 0px;
+   }
+  
+
+   .wrapper{
+     background-color: white;
+     
+     
+   }
+   .text-danger{
+    padding:2%
+  }
+   .main1{
+     height: 1281px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: whitesmoke;
+    
+
+   
+   }
+   .charitysignup{
+    
+    width:auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+   }
+   .form_input_here{
+    width:auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding:10%;
+
+   }
+   .here_charity{
+   
+      width:auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      padding:10%;
+
+   }
+  
+  .group-one{
+    width:80%;
+    height:auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+ 
+
+  .form-control{
+    margin-top: 10%;
+      width: 80%;
+  }
+  .group-one i {
+    margin-left: 72% ;
+     margin-top: -59px;
+    cursor: pointer;
+}
+.one-form{
+  width:80%;
+    height:auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.one-form i {
+  margin-left: 72% ;
+   margin-top: -59px;
+  cursor: pointer;
+}
+
+  .btn5{
+    align-items: center;
+    width:200px;
+  height: 50px;
+  margin-left: 5px;
+  background: rgb(88, 151, 211);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  }
+  .btn5:hover{
+    cursor: pointer;
+  }
+
+  .thankyou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    width:auto;
+    height:auto;
+
+
+
+  }
+  .footer_one{
+    background: white;
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  @media screen and (min-width: 250px) and (max-width: 1280px) {
+   
+     .main1{
+       height: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       background-color: whitesmoke;
+       padding-top:15%
+     
+     }
+     .text-danger{
+       padding:2%
+     }
+     .text-dangerous{
+     margin-top:8%
+    }
+     .charitysignup{
+    
+      width:auto;
+      height:auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      
+  
+     }
+     .form_input_here{
+      width:auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      padding:10%;
+  
+     }
+     .here_charity{
+      width:auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      padding:10%;
+
+     }
+    
+    
+   
+    .group-one{
+      width:150%;
+      height:auto;
+      background-color: whitesmoke;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+   
+    .one-form{
+      width:100%;
+      height:auto;
+      background-color: whitesmoke;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .form-control{
+      margin-top: 10%;
+        width: 80%;
+    }
+    .thankyou{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10%;
+      width:auto;
+      height:536px;
+  
+    }
+  
+    .btn5{
+      align-items: center;
+      width:150px;
+    height: 50px;
+    margin-left: 5px;
+    background: rgb(88, 151, 211);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+
+    .btn5:hover{
+      cursor: pointer;
+    }
+  
+    .footer_one{
+      background: white;
+      font-size: 15px;
+      height:60px;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+      align-items: center;
+      
+    }
+
+  }
+  
+  @media (min-width: 800px) and (max-width: 2560px) {
+
+    .wrapper{
+      background-color: white;
+      width: auto;
+      height: auto;
+      
+    }
+    .main1{
+      height: 1550px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+     
+ 
+    
+    }
+    .text-danger{
+      padding:1%
+    }
+    .text-dangerous{
+      margin-top:5%
+    }
+    .charitysignup{
+    
+      width:auto;
+      height:auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+  
+     }
+     .form_input_here{
+      width:auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      padding:0px;
+  
+     }
+     .here_charity{
+      width:auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      padding:0px;
+
+     }
+   
+   .group-one{
+     width:600px;
+     height:auto;
+     background-color: whitesmoke;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+   .one-form{
+    width:180%;
+    height:auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   }
+  
+ 
+   .form-control{
+     margin-top: 10%;
+       width: 80%;
+   }
+   .group-one i {
+     margin-left: 72% ;
+      margin-top: -59px;
+     cursor: pointer;
+ }
+ .one-form i {
+  margin-left: 72% ;
+  margin-top: -59px;
+ cursor: pointer;
+
+ }
+ 
+   .btn5{
+     align-items: center;
+     width:200px;
+   height: 50px;
+   margin-left: 5px;
+   background: rgb(88, 151, 211);
+   outline: none;
+   border: none;
+   color: #fff;
+   font-size: 1.2rem;
+   display: block;
+   margin-bottom: 30px;
+   border-radius: 10px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   }
+   .btn5:hover{
+     cursor: pointer;
+   }
+ 
+   .thankyou{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width:auto;
+     height:400px;
+ 
+ 
+ 
+   }
+   .footer_one{
+     background: white;
+     height:60px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+   }
+
+ 
+
+  }
+  @media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .wrapper{
+      background-color: white;
+      width: auto;
+      height: auto;
+      
+    }
+    .text-danger{
+      padding:1%
+    }
+    .text-dangerous{
+      margin:3%
+    }
+    .main1{
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+     
+ 
+    
+    }
+    .charitysignup{
+    
+      width:auto;
+     height:auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+  
+     }
+     .form_input_here{
+      width:auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      padding:0px;
+  
+     }
+     .here_charity{
+      width:auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      padding:0px;
+
+     }
+   
+   .group-one{
+     width:600px;
+     height:auto;
+     background-color: whitesmoke;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+  
+   .one-form{
+    width:600px;
+    height:auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+   .form-control{
+     margin-top: 10%;
+       width: 80%;
+   }
+   .group-one i {
+     margin-left: 72% ;
+      margin-top: -59px;
+     cursor: pointer;
+ }
+
+ .one-form i {
+  margin-left: 72% ;
+   margin-top: -59px;
+  cursor: pointer;
+}
+ 
+   .btn5{
+     align-items: center;
+     width:200px;
+   height: 50px;
+   margin-left: 5px;
+   background: rgb(88, 151, 211);
+   outline: none;
+   border: none;
+   color: #fff;
+   font-size: 1.2rem;
+   display: block;
+   margin-bottom: 30px;
+   border-radius: 10px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   }
+   .btn5:hover{
+     cursor: pointer;
+   }
+ 
+   .thankyou{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10%;
+     width:auto;
+     height:1100px;
+ 
+ 
+ 
+   }
+   .footer_one{
+     background: white;
+     height:60px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+   }
+
+
+}
+

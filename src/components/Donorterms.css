@@ -1,0 +1,126 @@
+.donor{
+    width: auto;
+    height:auto;
+    background-color: whitesmoke;
+    justify-content: center;
+    flex-direction: column;
+    align-items:inherit;
+    display: flex;
+    padding:8%;
+  
+    
+    
+}
+.data{
+  
+  opacity: 1.5;
+  width:"auto";
+  height:"auto";
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+.footer{
+  background: white;
+  height:40px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+ 
+}
+
+
+
+
+  .data{
+    
+    width:"auto";
+    height:"auto";
+     text-align:"center";
+     margin-top: 10%;
+     flex:none;
+     padding: 40px;
+     display:flex;
+       flex-direction: column;
+       align-items: center;
+  }
+  .workflow{
+    width: auto;
+    height:auto;
+    background-color: #fcfcfc;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
+  .detail{
+    width:"auto";
+    height:"auto";
+     text-align:"center";
+     margin-top: 10%;
+     flex:none;
+     padding: 30px;
+     display:flex;
+       flex-direction: column;
+       align-items: center;
+
+  }
+  .power{
+    width: auto;
+    height:auto;
+
+    background-color: whitesmoke;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+ 
+
+  }
+ 
+  @media screen and (min-width: 250px) and (max-width: 1280px){
+
+    .donor{
+      width: auto;
+      height:auto;
+      background-color: whitesmoke;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      padding:8%;
+    
+      
+  }
+  .power{
+    width: auto;
+    height:auto;
+    background-color: whitesmoke;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  
+    padding:5%;
+
+  }
+  
+  .footer{
+    background: white;
+    height:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+  }
+
+
+   
+}
+
+  
